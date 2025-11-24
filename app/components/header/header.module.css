@@ -1,0 +1,19 @@
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0;
+    background-color: rgb(137, 110, 105);
+}
+
+.top > li {
+    list-style: none;
+    color: aliceblue;
+    transition: all 0.2s ease-in-out;
+    font-size: 18px;
+}
+
+.top > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

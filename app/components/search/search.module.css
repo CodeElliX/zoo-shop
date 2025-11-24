@@ -1,0 +1,10 @@
+.wrap > input {
+    position: relative;
+    width: 16%;
+    height: 20px;
+}
+
+.search_icon {
+    position: absolute;
+    top: 0;
+}
