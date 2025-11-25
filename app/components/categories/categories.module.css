@@ -1,8 +1,9 @@
 .bottom {
     display: flex;
     justify-content: space-around;
-    border: 1px solid rgb(255, 165, 119);
-    padding: 20px;
+    border-top: 1px solid rgba(51, 204, 204, 0.3);
+    border-bottom: 1px solid rgba(51, 204, 204, 0.3);
+    padding: 10px;
 }
 
 .bottom > li {
@@ -11,7 +12,7 @@
     align-items: center;
     list-style: none;
     gap: 5px;
-    color: rgb(137, 110, 105);
+    color: #009999;
     font-weight: 900;
     font-size: 18px;
 }
@@ -19,7 +20,7 @@
 .bottom li span:first-child {
     width: 50px;
     height: 50px;
-    border: 1px solid rgb(213, 84, 72);
+    border: 1px solid #9FEE00;
     border-radius: 50%;
     padding: 20px;
 }
