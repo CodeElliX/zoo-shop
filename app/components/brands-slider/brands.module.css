@@ -1,0 +1,29 @@
+.wrap {
+    display: flex;
+    border-top: 1px solid rgba(51, 204, 204, 0.3);
+    border-bottom: 1px solid rgba(51, 204, 204, 0.3);
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 99, 99);
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.brand_img {
+    transform: scale(0);
+    transition: 0.8s;
+}
+
+.visible {
+    transform: scale(1);
+}
