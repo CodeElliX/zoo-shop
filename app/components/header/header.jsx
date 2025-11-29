@@ -2,7 +2,7 @@ import styles from "./header.module.css";
 import Search from "../search/search";
 import logo from "../../../public/logo.png"
 import Image from "next/image";
-import { basket } from "@/app/utilites/svg";
+import { basket, heart } from "@/app/utilites/svg";
 
 export default function Header() {
     return <div>
@@ -16,6 +16,7 @@ export default function Header() {
         <div className={styles.bottom}>
             <Image src={logo} alt="logo" width={150} height={60} />
             <Search />
+            {heart}
             <div className={styles.btn}>
                 <span className={styles.left_btn}>{basket}</span>
                 <span className={styles.right_btn}>
